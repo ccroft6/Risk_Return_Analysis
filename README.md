@@ -52,17 +52,25 @@ For this analysis, the following steps were taken:
 
 In response to each of the steps taken as indicated in the Methods section above, these were the results:
 
-1. Performance: None of the four funds outperformed the broader stock market (S&P 500). 
+1. Performance: Based on the cumulative return data and the visualization, none of the four fund portfolios outperform the S&P 500 Index. The S&P 500 Index (purple line) has cumulative returns of about 84% in the end compared to the four fund portfolios having cumulative returns of 26% (Berkshire Hathaway) and below.  
 
-2. Volatility: The Berkshire Hathaway fund was the most volatile as indicated by ....
+![Cumulative Returns](./Screenshots/cumulative_returns)
 
-3. Risk: The fund that poses the most risk is .... as indicated by ....
+2. Volatility: Based on the box plot visualizations, the Berkshire Hathaway fund was the most volatile fund as indicated by it having a larger box (larger spread around the mean) and outliers that are further away from the mean. The least volatile fund was Tiger Global Management LLC as indicated by it having really small box (smaller spread around the mean) and outliers that are closer to the mean compared to the other funds.
 
-4. Risk-Return: The fund that offers the best risk-return profile is .... as indicated by ....
+![Box Plots of Whale Funds](/.Screenshots/box_plots)
 
-(sharpe ratio graph)
+3. Risk: Based on the annualized standard deviation (STD), there are no portfolios that pose more risk than the S&P 500. The S&P 500 has the highest annualized STD of 0.18. The four whale fund portfolios have STDs of 0.05 and below. Based on the rolling STD, near the end of 2016, the risk of the Berkshire Hathaway portfolio started to increase at the same time that the risk of the S&P 500 increased. Near the end of 2018, and especially in 2020, the risk of all of the portfolios increased at the same time that the risk of the S&P 500 increased.
 
-5. Portfolio Diversification: The best fund for inclusion in the firm's suite of fund offerings is ....
+![Rolling STD Plot](/.Screenshots/rolling_std)
+
+4. Risk-Return: The fund that offers the best risk-return profile is Berkshire Hathaway Inc. because it has the highest sharpe ratio. Paulson & Co. Inc. offers the worst risk-return profile because it has the lowest sharpe ratio. 
+
+![Sharpe Ratio Plot](/.Screenshots/sharpe_ratio_plot)
+
+5. Portfolio Diversification: The best fund for inclusion in the firm's suite of fund offerings is the Berkshire Hathaway portfolio because it has a better risk-reward profile. When looking at the sharpe ratios, Berkshire Hathaway had the best sharpe ratio, even better than the S&P 500. The sharpe ratio for Berkshire Hathaway is 0.72, for the S&P 500 is 0.59, and for the Tiger Global Management is 0.58. This demonstrates that Berkshire Hathaway balances the risk and return well. It follows the movements of the S&P 500 given that Berkshire Hathaway likely includes some of the same stocks as the S&P 500, but it removes some of the riskier/more volatile stocks, resulting in a better balance of risk and reward than the S&P 500. In addition, Berkshire Hathaway has a higher annualized average return of 0.037 compared to Tiger's annualized average return of 0.009. Therfore, Berkshire Hathaway provides the highest potential of asset return value while not being riskier than the market (S&P 500). 
+
+![Sharpe Ratios](/.Screenshots/sharpe_ratios)
 
 ---
 
