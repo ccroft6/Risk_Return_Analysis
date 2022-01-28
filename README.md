@@ -36,13 +36,13 @@ This project uses Jupyter Notebook (within [JupyterLab](https://jupyterlab.readt
 
 For this analysis, the following steps were taken:
 
-1. Analyze the Performance - Plot the daily return data and the cumulative return data of the four funds and the S&P 500 portfolio to see if any of the portfolios outperform the broader stock market (represetned by the S&P 500). 
+1. Analyze the Performance - Plot the daily return data and the cumulative return data of the four funds and the S&P 500 portfolio to see if any of the portfolios outperform the broader stock market (represented by the S&P 500). 
 
 2. Analyze the Volatility - Plot box plots of the daily return data for the four funds and the S&P 500 and then box plots for just the four funds. Assess the spread and determine which fund is the least and most volatile. 
 
 3. Analyze the Risk - Evaluate the risk profile of each portfolio by calculating the standard deviation, annualized standard deviation, and 21-day rolling standard deviation. Plot the rolling standard deviations and assess which portfolio poses the most risk. 
 
-4. Analyze the Risk-Return Profile - Evaluate the risk-return ratio by calculating the Sharpe Ratios. Plot a bar chart to visualize the Sharpe Ratios assess which portfolio offers the best risk-return portfolio.
+4. Analyze the Risk-Return Profile - Evaluate the risk-return ratio by calculating the sharpe ratios. Plot a bar chart to visualize the sharpe ratios and assess which portfolio offers the best risk-return portfolio.
 
 5. Diversify the Portfolio - Evaluate how the portfolios react relative to the broader market by calculating the betas of two of the four portfolios that look the best to include in the portfolio. Plot the 60-day rolling beta of the two portfolios and assess which of the two portfolios are the best recommnedation for inclusion in the firm's suite of fund offerings. 
 
@@ -56,7 +56,7 @@ In response to each of the steps taken as indicated in the Methods section above
 
 ![Cumulative Returns](Screenshots/cumulative_returns.png)
 
-2. Volatility: Based on the box plot visualizations, the Berkshire Hathaway fund was the most volatile fund as indicated by it having a larger box (larger spread around the mean) and outliers that are further away from the mean. The least volatile fund was Tiger Global Management LLC as indicated by it having really small box (smaller spread around the mean) and outliers that are closer to the mean compared to the other funds.
+2. Volatility: Based on the box plot visualizations, the Berkshire Hathaway fund was the most volatile fund as indicated by it having a larger box (larger spread around the mean) and outliers that are further away from the mean. The least volatile fund was Tiger Global Management LLC as indicated by it having a really small box (smaller spread around the mean) and outliers that are closer to the mean compared to the other funds.
 
 ![Box Plots of Whale Funds](Screenshots/box_plots.png)
 
